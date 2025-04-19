@@ -8,7 +8,7 @@ def matmul(A, B):
             for j in range(len(C[0])):
                 for k in range(len(A[0])):
                     C[i][j] += A[i][k] * B[k][j]
-                s += str(C[i][j]) + " "
+                s += str(C[i][j]) + "\t"
             s += "\n"
         return s
 
